@@ -529,7 +529,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -601,6 +601,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  invisiblityFlashDelay: 0.2
+  invisiblityDuration: 2.5
   isInvincible: 0
   graphics: {fileID: 308708698}
   healthBar: {fileID: 1656085400}
